@@ -14,7 +14,7 @@ mod 'puppet/archive',      '1.3.0'
 mod 'KyleAnderson/consul', '3.0.0'
 mod 'jsok/vault',          '1.2.5'
 mod 'nanliu/staging',      '1.0.3'
-mod 'dudemcbacon/nomad',   '0.0.3'
+#mod 'dudemcbacon/nomad',   '0.0.3'
 mod 'saz/dnsmasq',         '1.3.1'
 mod 'garethr/docker',      '5.3.0'
 
@@ -24,6 +24,6 @@ mod 'garethr/docker',      '5.3.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+mod 'nomad',
+  :git    => 'https://github.com/ncorrare/puppet-nomad',
+  :branch => 'master'
