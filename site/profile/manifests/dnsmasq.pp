@@ -4,8 +4,11 @@ class profile::dnsmasq {
         'consul' => {
             content => 'server=/consul/127.0.0.1#8600',
         },
-        'upstream' => {
-            content => 'server=8.8.8.8,4.4.4.4',
+        'upstream-google' => {
+            content => 'server=8.8.8.8',
+        },
+        'upstream-root' => {
+            content => 'server=4.4.4.4',
         },
       },
    }
