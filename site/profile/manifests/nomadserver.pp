@@ -1,5 +1,7 @@
 class profile::nomadserver {
   class { '::nomad':
+      version       => '0.6.0',
+      pretty_config => true,
       config_hash => {
       'region'     => 'armhf',
       'datacenter' => 'STN',
