@@ -15,6 +15,14 @@ class profile::nomadserver {
       'consul' => {
          'address'          => "127.0.0.1:8500",
        },
+       'client'     => {
+         'enabled'    => true,
+         'servers'    => [
+           "node-5.nomad.corrarello.net",
+           "node-3.nomad.corrarello.net",
+           "node-4.nomad.corrarello.net"
+         ]
+       },
     }
   }
 }
