@@ -11,6 +11,7 @@ class profile::consulserver {
       'log_level'        => 'INFO',
       'node_name'        => $facts['fqdn'],
       'server'           => true,
+      'ui'               => true,
     }
   }
 }
