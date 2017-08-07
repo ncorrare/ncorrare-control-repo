@@ -7,6 +7,7 @@ mod 'puppetlabs/concat',   '2.1.0'
 mod 'puppetlabs/stdlib',   '4.17.1'
 mod 'puppetlabs/ntp',      '6.2.0'
 mod 'puppetlabs/apt',      '3.0.0'
+mod 'puppetlabs/java',     '2.1.0'
 #Community modules
 mod 'puppet/archive',      '1.3.0'
 mod 'KyleAnderson/consul', '3.0.0'
