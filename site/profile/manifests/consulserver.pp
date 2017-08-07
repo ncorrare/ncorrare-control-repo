@@ -1,6 +1,7 @@
 class profile::consulserver {
   class { '::consul':
     version => '0.9.0',
+    pretty_config => true,
     config_hash => {
       'bootstrap_expect' => 3,
       'client_addr'      => '0.0.0.0',
