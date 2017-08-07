@@ -1,6 +1,6 @@
 class profile::nomadserver {
   class { '::nomad':
-      version       => '0.6.0',
+      version       => '0.5.6',
       pretty_config => true,
       config_hash => {
       'region'     => 'armhf',
