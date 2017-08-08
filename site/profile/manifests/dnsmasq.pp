@@ -2,7 +2,7 @@ class profile::dnsmasq {
   class { '::dnsmasq':
     configs_hash => {
         'corrarello' => {
-            content => 'server=/corrarello.net/192.168.0.1',
+            content => 'server=/corrarello.com/192.168.0.1',
         },
         'consul' => {
             content => 'server=/consul/127.0.0.1#8600',
