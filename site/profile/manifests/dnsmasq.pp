@@ -15,4 +15,7 @@ class profile::dnsmasq {
         },
       },
    }
+   file { '/etc/resolvconf/update.d/dnsmasq':
+     ensure => absent,
+   }
 }
